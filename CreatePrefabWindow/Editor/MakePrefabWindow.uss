@@ -1,0 +1,49 @@
+.toolbar-btn {
+    background-color: rgb(91, 91, 91);
+    -unity-font: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+}
+
+.default-Label {
+}
+
+.prefab-visual {
+    flex-grow: 1;
+    height: 30px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(40, 40, 40);
+    border-right-color: rgb(40, 40, 40);
+    border-top-color: rgb(40, 40, 40);
+    border-bottom-color: rgb(40, 40, 40);
+}
+
+.prefab-label {
+    justify-content: center;
+    align-items: center;
+    -unity-text-align: middle-left;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    align-self: flex-start;
+    flex-grow: 1;
+    left: 5px;
+}
+
+.prefab-visual:hover {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgb(66, 66, 66);
+    transition-duration: 0s;
+}
+
+.prefab-visual-select {
+    flex-grow: 1;
+    height: 30px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(40, 40, 40);
+    border-right-color: rgb(40, 40, 40);
+    border-top-color: rgb(40, 40, 40);
+    border-bottom-color: rgb(40, 40, 40);
+    background-color: rgb(62, 95, 150);
+}

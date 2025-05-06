@@ -1,0 +1,58 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Test/CreatePrefabWindow/07_UI/MakePrefabWindow.uss?fileID=7433441132597879392&amp;guid=f408b738d9918ba43a914684600ee13a&amp;type=3#MakePrefabWindow" />
+    <ui:VisualElement name="PrefabWindow" style="flex-grow: 1;">
+        <ui:VisualElement name="Views" style="flex-grow: 1; flex-direction: row-reverse;">
+            <ui:VisualElement name="InspectorView" focusable="true" style="flex-grow: 1; background-color: rgb(40, 40, 40);">
+                <uie:Toolbar focusable="true" name="Toolbar" style="flex-direction: row-reverse; height: 25px;">
+                    <ui:Button text="DeletePrefab" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteBtn" class="toolbar-btn" />
+                    <ui:Button text="MakePrefab" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MakeBtn" class="toolbar-btn" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameLabel" class="default-Label" style="flex-direction: column; -unity-text-align: middle-left; flex-grow: 1; left: 2px;" />
+                </uie:Toolbar>
+                <ui:TextField picking-mode="Ignore" label="FileName" name="FileName" />
+                <ui:VisualElement name="PrefabInfo" style="flex-grow: 1; background-color: rgb(60, 60, 60); border-left-color: rgb(90, 90, 90); border-right-color: rgb(90, 90, 90); border-top-color: rgb(90, 90, 90); border-bottom-color: rgb(90, 90, 90); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; white-space: normal; justify-content: flex-end; flex-direction: column-reverse; align-self: auto;">
+                    <ui:VisualElement name="2DSetting" style="flex-grow: 0; flex-shrink: 0; display: none; width: auto; height: auto; overflow: visible; visibility: visible;">
+                        <ui:GroupBox name="DeafultInfo" style="border-left-color: rgb(90, 90, 90); border-right-color: rgb(90, 90, 90); border-top-color: rgb(90, 90, 90); border-bottom-color: rgb(90, 90, 90); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+                            <ui:Label tabindex="-1" text="Deafult Info" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GroupName" />
+                            <ui:TextField picking-mode="Ignore" label="Name" name="NameTag" />
+                            <uie:ObjectField label="Visual" type="UnityEngine.GameObject, UnityEngine.CoreModule" name="VisualField" />
+                            <uie:ObjectField label="Stat" type="UnityEngine.ScriptableObject, UnityEngine.CoreModule" name="StateField" />
+                        </ui:GroupBox>
+                        <ui:GroupBox name="AIInfo" style="border-left-color: rgb(90, 90, 90); border-right-color: rgb(90, 90, 90); border-top-color: rgb(90, 90, 90); border-bottom-color: rgb(90, 90, 90); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; display: flex;">
+                            <ui:Label tabindex="-1" text="AI Setting" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GroupName" />
+                            <ui:EnumField label="AIType" type="Define+AIType, Assembly-CSharp" name="AIType" />
+                        </ui:GroupBox>
+                        <ui:GroupBox name="ColliderInfo" style="border-left-color: rgb(90, 90, 90); border-right-color: rgb(90, 90, 90); border-top-color: rgb(90, 90, 90); border-bottom-color: rgb(90, 90, 90); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+                            <ui:Label tabindex="-1" text="Collider Setting" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GroupName" />
+                            <ui:EnumField label="ColliderType" type="Define+ColliderType2D, Assembly-CSharp" name="ColliderType" />
+                        </ui:GroupBox>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="3DSetting" style="flex-grow: 1; flex-shrink: 0; display: none; visibility: visible;">
+                        <ui:GroupBox name="DeafultInfo" style="border-left-color: rgb(90, 90, 90); border-right-color: rgb(90, 90, 90); border-top-color: rgb(90, 90, 90); border-bottom-color: rgb(90, 90, 90); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+                            <ui:Label tabindex="-1" text="Deafult Info" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GroupName" />
+                            <ui:TextField picking-mode="Ignore" label="Name" name="NameTag" />
+                            <uie:ObjectField label="Visual" type="UnityEngine.GameObject, UnityEngine.CoreModule" name="VisualField" />
+                            <uie:ObjectField label="Stat" type="UnityEngine.ScriptableObject, UnityEngine.CoreModule" name="StateField" />
+                        </ui:GroupBox>
+                        <ui:GroupBox name="AIInfo" style="border-left-color: rgb(90, 90, 90); border-right-color: rgb(90, 90, 90); border-top-color: rgb(90, 90, 90); border-bottom-color: rgb(90, 90, 90); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+                            <ui:Label tabindex="-1" text="AI Setting" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GroupName" />
+                            <ui:EnumField label="AIType" type="Define+AIType, Assembly-CSharp" name="AIType" />
+                        </ui:GroupBox>
+                        <ui:GroupBox name="ColliderInfo" style="border-left-color: rgb(90, 90, 90); border-right-color: rgb(90, 90, 90); border-top-color: rgb(90, 90, 90); border-bottom-color: rgb(90, 90, 90); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+                            <ui:Label tabindex="-1" text="Collider Setting" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GroupName" />
+                            <ui:EnumField label="ColliderType" type="Define+ColliderType3D, Assembly-CSharp" name="ColliderType" />
+                        </ui:GroupBox>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:ScrollView style="flex-grow: 0; width: auto; position: relative; flex-basis: 26%;">
+                <ui:VisualElement name="SerchBar" style="flex-grow: 0.1; border-right-width: 1px; border-left-color: rgb(39, 39, 39); border-right-color: rgb(39, 39, 39); border-top-color: rgb(39, 39, 39); border-bottom-color: rgb(39, 39, 39); height: 25px; border-bottom-width: 1px; flex-direction: column-reverse; flex-shrink: 0;">
+                    <ui:TextField picking-mode="Ignore" name="Serch" max-length="-1" password="false" auto-correction="false" style="bottom: -2px; flex-grow: 0; white-space: nowrap; flex-wrap: nowrap; flex-direction: row; text-overflow: clip; overflow: hidden; -unity-background-scale-mode: stretch-to-fill; width: 200px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PrefabView" style="flex-grow: 1; height: auto;" />
+                <ui:VisualElement name="VisualElement" class="prefab-visual unity-visual-button prefab-visual-select" style="flex-grow: 0; transition-property: all; flex-shrink: 1; display: none;">
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" class="prefab-label" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
