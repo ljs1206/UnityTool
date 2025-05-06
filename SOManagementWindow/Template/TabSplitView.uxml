@@ -1,0 +1,86 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/SOManagementWindow/Template/TabSplitView.uss?fileID=7433441132597879392&amp;guid=c02caa07549ec1349bd3838df6ce35fd&amp;type=3#TabSplitView" />
+    <Style src="project://database/Assets/SOManagementWindow/USS/WindowUSS_Type_1.uss?fileID=7433441132597879392&amp;guid=4d8bf05f45ec2884e9c0cbfe150365af&amp;type=3#WindowUSS_Type_1" />
+    <SplitView style="width: 900px; height: auto; flex-basis: auto;">
+        <engine:VisualElement name="SerachTab" style="flex-grow: 0; width: 0; flex-basis: 250px; border-left-color: rgb(42, 42, 42); border-right-color: rgb(42, 42, 42); border-top-color: rgb(42, 42, 42); border-bottom-color: rgb(42, 42, 42); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
+            <engine:ScrollView name="ItemVisualTable" style="bottom: -1px; flex-grow: 1; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
+                <editor:ToolbarPopupSearchField name="ItemSearchBar" style="width: 242px; border-left-color: rgb(42, 42, 42); border-right-color: rgb(42, 42, 42); border-top-color: rgb(42, 42, 42); border-bottom-color: rgb(42, 42, 42);" />
+                <engine:VisualElement name="ItemVisualList" focusable="true" style="flex-grow: 1;">
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="ItemVisual" class="item-visual" style="flex-grow: 1; display: none;">
+                        <engine:Label text="Label" class="item-label" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:ScrollView>
+        </engine:VisualElement>
+        <engine:VisualElement name="InfoTab" style="flex-grow: 0; border-left-color: rgba(42, 42, 42, 0); border-right-color: rgba(42, 42, 42, 0); border-top-color: rgba(42, 42, 42, 0); border-bottom-color: rgba(42, 42, 42, 0);">
+            <editor:Toolbar name="Toolbar" style="border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(42, 42, 42); border-right-color: rgb(42, 42, 42); border-top-color: rgb(42, 42, 42); border-bottom-color: rgb(42, 42, 42); height: 60px; width: 650px; left: -1px; flex-direction: row;">
+                <engine:Label text="Label" name="NameLabel" style="right: 100px; bottom: -3px; font-size: 17px; -unity-font-definition: url(&quot;project://database/Assets/SOManagementWindow/Font/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=57d31f5b8589fcb4685194f4e84723b1&amp;type=3#DNFForgedBlade-Medium&quot;); width: 330px; left: 10px;" />
+                <engine:Button text="Delete" name="DeleteBtn" class="toolbar-btn" />
+                <engine:Button text="Create" name="MakeBtn" class="toolbar-btn" style="width: 100px; -unity-font-definition: url(&quot;project://database/Assets/SOManagementWindow/Font/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=57d31f5b8589fcb4685194f4e84723b1&amp;type=3#DNFForgedBlade-Medium&quot;); height: 35px; bottom: -20px;" />
+                <engine:Button text="Rename" name="RenameBtn" selectable="true" class="toolbar-btn" style="width: 100px; -unity-font-definition: url(&quot;project://database/Assets/SOManagementWindow/Font/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=57d31f5b8589fcb4685194f4e84723b1&amp;type=3#DNFForgedBlade-Medium&quot;); bottom: -20px; height: 35px;" />
+            </editor:Toolbar>
+            <engine:TextField label="ChangeFileName" hide-placeholder-on-focus="true" max-length="20" name="FileNameField" style="-unity-font-definition: url(&quot;project://database/Assets/SOManagementWindow/Font/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=57d31f5b8589fcb4685194f4e84723b1&amp;type=3#DNFForgedBlade-Medium&quot;);" />
+            <engine:IMGUIContainer />
+        </engine:VisualElement>
+    </SplitView>
+</engine:UXML>

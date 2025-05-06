@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/00Work/LJS/Editor/EditorWindow/Test/CheckingWindow/CheckingWindow.uss?fileID=7433441132597879392&amp;guid=06734dc51dd9f5a428b5724e1e4453ab&amp;type=3#CheckingWindow" />
+    <engine:VisualElement name="Root" style="flex-grow: 1;">
+        <engine:Label text="Test" name="Description" style="flex-grow: 1; flex-shrink: 1; -unity-font-definition: url(&quot;project://database/Assets/00Work/LJS/04_Font/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=57d31f5b8589fcb4685194f4e84723b1&amp;type=3#DNFForgedBlade-Medium&quot;); -unity-text-align: middle-center; white-space: pre-wrap; flex-wrap: wrap; font-size: 15px;" />
+        <engine:VisualElement name="Button" style="flex-grow: 0; flex-direction: row;">
+            <engine:Button text="Accept" name="AcceptBtn" class="btn" />
+            <engine:Button text="Cancel" name="RejectBtn" class="btn" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

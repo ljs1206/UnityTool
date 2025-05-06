@@ -1,0 +1,85 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/SOManagementWindow/TestWindow.uss?fileID=7433441132597879392&amp;guid=261e8ddc16256d14ebd2de7ae5c32058&amp;type=3#TestWindow" />
+    <Style src="project://database/Assets/SOManagementWindow/USS/WindowUSS_Type_1.uss?fileID=7433441132597879392&amp;guid=4d8bf05f45ec2884e9c0cbfe150365af&amp;type=3#WindowUSS_Type_1" />
+    <engine:VisualElement name="SoManagement" style="flex-grow: 1;">
+        <editor:Toolbar name="TabBar" style="height: 50px;">
+            <engine:ScrollView mode="Horizontal" name="TabScrollView" horizontal-scroller-visibility="Auto" style="flex-grow: 1;">
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+                <engine:VisualElement name="Tab" class="tab" style="flex-grow: 0; flex-shrink: 1; display: none;">
+                    <engine:Label text="Label" class="tab-label" />
+                </engine:VisualElement>
+            </engine:ScrollView>
+        </editor:Toolbar>
+    </engine:VisualElement>
+</engine:UXML>

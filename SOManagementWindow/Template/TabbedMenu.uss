@@ -1,0 +1,22 @@
+/* Style for tabs */
+.unity-tab__header {
+    background-color: rgb(229, 223, 223);
+    -unity-font-style: bold;
+    font-size: 14px;
+}
+
+/* Adds background color for the selected tab */
+.unity-tab__header:checked  {
+    background-color: rgb(173, 166, 166);
+}
+
+/* Style for tabContent */
+.tab-content {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* By default, each tab header has an underline. This hides the header underline  */
+.unity-tab__header-underline {
+    opacity: 0; /* or rgba(0, 0, 0, 0); */
+}

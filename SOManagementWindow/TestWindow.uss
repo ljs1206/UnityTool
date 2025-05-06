@@ -1,0 +1,39 @@
+.tab-label {
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    -unity-font-definition: url("project://database/Assets/SOManagementWindow/Font/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=57d31f5b8589fcb4685194f4e84723b1&type=3#DNFForgedBlade-Medium");
+    white-space: pre-wrap;
+}
+
+.tab {
+    flex-grow: 0;
+    -unity-text-align: middle-center;
+    white-space: pre-wrap;
+    border-left-color: rgb(35, 35, 35);
+    border-right-color: rgb(35, 35, 35);
+    border-right-width: 1.5px;
+    border-left-width: 0;
+}
+
+.tab-select {
+    border-bottom-width: 1px;
+    border-left-color: rgb(35, 35, 35);
+    border-right-color: rgb(35, 35, 35);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    white-space: pre-wrap;
+    border-right-width: 1.5px;
+    border-left-width: 0;
+}
+
+.tab-select {
+    border-bottom-width: 1px;
+    border-left-color: rgb(35, 35, 35);
+    border-right-color: rgb(35, 35, 35);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    white-space: pre-wrap;
+    border-right-width: 1.5px;
+    border-left-width: 0;
+}

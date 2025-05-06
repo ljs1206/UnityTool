@@ -1,0 +1,9 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.unity-label {
+    -unity-font-definition: url("project://database/Assets/00Work/LJS/04_Font/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=57d31f5b8589fcb4685194f4e84723b1&type=3#DNFForgedBlade-Medium");
+}

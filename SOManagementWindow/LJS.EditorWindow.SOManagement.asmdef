@@ -1,0 +1,14 @@
+{
+    "name": "LJS.EditorWindow.SOManagement",
+    "rootNamespace": "LJS.Editing.SOManagement",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

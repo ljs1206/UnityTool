@@ -1,0 +1,4 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00Work/LJS/Editor/EditorWindow/Test/TabbedMenu.uss?fileID=7433441132597879392&amp;guid=8eca3412adf4e5a4c8bc2145801c109c&amp;type=3#TabbedMenu" />
+    <engine:VisualElement style="flex-grow: 1;" />
+</engine:UXML>
